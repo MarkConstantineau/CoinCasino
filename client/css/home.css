@@ -1,0 +1,241 @@
+/* This is for my h1 and h4 font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+/* This is for h2 font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); 
+/* This is for h3 font */
+
+
+/* This is for titles-text-section */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Roboto+Slab:wght@600&display=swap');
+
+/* This is for description-text-games */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+/* This is for slogan-p */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* This is for game-button text */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 250px 700px;
+}
+
+.navdiv {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+background-color: black;
+border-bottom: 4px solid gold;
+}
+
+h1 {
+font-family: 'Chakra Petch', sans-serif;
+color: gold;
+margin-left: 40px;
+}
+
+h2 {
+font-size: 45px;
+color: white;
+font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+color: gold;
+transition: 0.4s;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+h4:hover {
+color: rgb(145, 129, 39);
+}
+
+.title {
+}
+
+.balance-num {
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+font-size: 20px;
+margin-top: 15px;
+}
+
+.links {
+padding-bottom: 20px;
+}
+
+a:link {
+text-decoration: none;
+}
+
+.links ul {
+list-style-type: none;
+overflow:hidden;
+text-align: right;
+padding-top: 20px;
+}
+
+.links li {
+display:inline-block;
+padding-right: 25px;
+font-size: 18px;
+}
+
+.middiv {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1.7fr 0.9fr;
+background-color: black;
+background-image: url('/client/coinsdropping2.gif');
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+.title-slogan {
+text-align: center;
+margin-top: auto;
+margin-bottom: center;
+}
+
+.slogan {
+text-align: center;
+margin-top: 20px;
+}
+
+.slogan-p {
+margin-top: 20px;
+font-size: 25px;
+color: white;
+font-family: 'Questrial', sans-serif;
+
+}
+
+.games-slogan {
+text-align: center;
+}
+
+.games-p {
+font-size: 20px;
+color: white;
+font-family: 'Questrial', sans-serif;
+}
+
+.game-description {
+background-image: linear-gradient(rgba(255, 217, 0, 0.788), rgb(0, 0, 0));
+}
+
+.botdiv {
+height: 100%;
+background-image: url('/client/casinobg2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bottom-box-section {
+display: grid;
+grid-template-columns: 230px 230px 230px;
+width: 80%;
+height: 70%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+grid-gap: 125px;
+justify-content: center;
+}
+
+
+.inside-grid-botbox {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 30% 35% 35%;
+height: 100%;
+text-align: center;
+z-index: 1;
+border-radius: .25rem;
+transition: 200ms transform ease-in-out;
+background-color: black;
+margin-top: 15px;
+background-image: url('/client/currencybackground3.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.inside-grid-botbox:hover {
+border: 2px solid gold;
+transform: scale(1.125);
+background-image: none;
+background-color: black;
+}
+
+.game-button  {
+color: white;
+font-size: 20px;
+margin-top: 30px;
+width: 45%;
+border-radius: 20px;
+height: 25%;
+background-color: rgb(255, 0, 0);
+font-family: 'Passion One', cursive;
+}
+
+.picture-section {
+border-bottom: 4px solid gold;
+}
+
+.text-section {
+font-size: 35px;
+color: gold;
+}
+
+.titles-text-section {
+margin-top: 25%;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.description-text-games {
+color:black;
+font-family: 'Questrial', sans-serif;
+font-size: 19px;
+margin-top: 20px;
+}
+
+.seperation-div {
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 33px;
+}
+
+.wheel-pic {
+width: 120px;
+margin-top: 12px;
+}
+
+.coin-pic {
+width: 120px;
+margin-top: 10px;
+}
+
+.dice-pic {
+width: 120px;
+margin-top: 18px;
+}
+
+.footer-div {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    z-index: 1;
+}

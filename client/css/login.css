@@ -1,0 +1,101 @@
+/* This is for h4 */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+/* This is for h2 */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@600&display=swap');
+
+/* This is for button */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+
+/* This is for h6 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+h2 {
+text-align: center;
+margin-top: 40px;
+font-family: 'Andada Pro', serif;
+}
+
+h3 {
+font-size: 17px;
+margin-left: 10px;
+}
+
+h4 {
+font-family: 'Chakra Petch', sans-serif;
+color: gold;
+font-size: 25px;
+margin-left: 10px;
+}
+
+h6 {
+text-align: center;
+margin-right: 20px;
+margin-top: 20px;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 550px 270px;
+justify-content: center;
+align-items: center;
+background-image: url('/client/blackbg.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.form {
+background-image: linear-gradient(rgb(31, 31, 31), rgb(65, 65, 65));
+border: solid 1px gold;
+color: white;
+height: 100%;
+width: 40%;
+margin: auto;
+}
+
+.submit-box {
+margin-top: 30px;
+margin-left: 21%;
+height: 30px;
+width: 60%;
+border: 2px solid black;
+}
+
+.submit-button {
+margin-left: 38%;
+margin-top: 70px;
+background-color: black;
+color: white;
+border: 1px solid gold;
+transition-duration: 0.4s;
+padding: 16px 40px;
+font-family: 'Andada Pro', serif;
+}
+
+.submit-button:hover {
+background-color: rgb(131, 122, 73);
+}
+
+.sign-in {
+color: gold;
+}
+
+.sign-in:hover {
+color: rgb(179, 153, 10);
+cursor: pointer;
+}
+
+.sign-in:active {
+color: purple;
+}
+ 

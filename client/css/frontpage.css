@@ -1,0 +1,88 @@
+/* This font is for the h1 */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+
+/* This is for the h2 
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap'); 
+*/
+
+/* This is for the h2 italic */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+
+/* This will be for the paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Quicksand&display=swap');
+
+
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 750px;
+}
+
+.background-image {
+position: fixed; 
+top: 0; 
+left: 0; 
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+}
+
+.content {
+margin-top: 200px;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+h1 {
+font-size: 80px;
+color: gold;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+h2 {
+font-size: 40px;
+font-family: 'Crete Round', serif;
+}
+
+p {
+font-size: 22px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.buttons {
+padding: 16px 32px;
+margin: 80px 40px;
+transition-duration: 0.4s;
+}
+
+.button1 {
+color: gold;
+border: 2px solid gold;
+background-color: black;
+}
+
+.button1:hover {
+background-color: white;
+color: black;
+}
+
+.button2 {
+color: white;
+background-color: black;
+border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: gold;
+    color: black;
+}

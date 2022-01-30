@@ -1,0 +1,256 @@
+/* This is for my h1 and h4 font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+/* This is for h2 font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); 
+/* This is for h3 font */
+
+
+/* This is for titles-text-section */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Roboto+Slab:wght@600&display=swap');
+
+/* This is for description-text-games */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+/* This is for slogan-p */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* This is for game-button text */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 900px;
+background: url('/client/addfundsbg3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h4 {
+color: gold;
+transition: 0.4s;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+h4:hover {
+color: rgb(145, 129, 39);
+}
+
+
+    
+.navdiv {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+background-color: black;
+border-bottom: 4px solid gold;
+}
+
+    
+h1 {
+font-family: 'Chakra Petch', sans-serif;
+color: gold;
+margin-left: 40px;
+}
+
+.title {
+}
+        
+.links {
+padding-bottom: 20px;
+}
+        
+a:link {
+text-decoration: none;  
+}
+        
+.links ul {
+list-style-type: none;
+overflow:hidden;
+text-align: right;
+padding-top: 20px;
+}
+        
+.links li {
+display:inline-block;
+padding-right: 25px;
+font-size: 18px;
+}
+
+.balance-num {
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+font-size: 20px;
+margin-top: 15px;
+}
+
+body{
+height: 100vh;
+background-image: url('/client/addfundsbg3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.coinflip-section{
+background-image: linear-gradient(rgb(167, 142, 1), rgb(7, 6, 0));
+border: 2px solid gold;
+height: 550px;
+width: 400px;
+padding: 50px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+box-shadow: 15px 30px 35px rgba(0,0,0,0.1);
+border-radius: 10px;
+-webkit-perspective: 300px;
+ perspective: 300px;
+}
+.result{
+text-align: center;
+color: #101020;
+font-weight: 500;
+line-height: 25px;
+}
+.coin{
+height: 150px;
+width: 150px;
+position: relative;
+margin: 50px auto;
+-webkit-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.coin img{
+width: 150px;
+}
+.heads,.tails{
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(1980deg);
+    }
+}
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(2160deg);
+    }
+}
+.button{
+display: flex;
+justify-content: center;
+}
+
+button{
+width: 120px;
+padding: 10px 0;
+border: 2.5px solid gold;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.cancel-button {
+display: flex;
+justify-content: center;
+height: 25px;
+}
+
+#cancel-bet {
+margin-top: 10px;
+height: 40px;
+width: 120px;
+padding: 10px 0;
+border: 2.5px solid gold;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#cancel-bet:disabled {
+background-color: grey;
+}
+
+.heads-tails-btns {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 40px;
+}
+
+#heads {
+color: gold;
+text-align:center ;
+}
+
+#heads-tag {
+width: 120px;
+text-align: center;
+}
+
+#confirm-heads {
+margin-top: 20px;
+}
+
+#tails {
+color: gold;
+text-align: center;
+}
+
+#tails-tag {
+width: 120px;
+text-align: center;
+}
+
+#confirm-tails {
+margin-top: 20px;
+}
+
+#heads-button:disabled {
+background-color: gray;
+}
+
+#bet {
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#tails-button:disabled {
+background-color: gray;
+}
+
+.bet-here {
+    color: gold;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+#flip-button{
+background-color: black;
+color: gold;
+}
+#flip-button:disabled{
+background-color: #da1111;
+border-color: gold;
+color: #101020;
+}

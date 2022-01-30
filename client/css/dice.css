@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+    }
+    
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 600px 300px;
+}
+    
+.navdiv {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+background-color: black;
+border-bottom: 4px solid gold;
+ }
+    
+h1 {
+font-family: 'Chakra Petch', sans-serif;
+color: gold;
+margin-left: 40px;
+}
+    
+h2 {
+font-size: 45px;
+color: white;
+font-family: 'Roboto Slab', serif;
+}
+    
+    h4 {
+    color: gold;
+    transition: 0.4s;
+    font-family: 'Chakra Petch', sans-serif;
+    }
+    
+    h4:hover {
+    color: rgb(145, 129, 39);
+    }
+    
+    .title {
+    }
+    
+    .balance-num {
+    color: gold;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    }
+    
+    .links {
+    padding-bottom: 20px;
+    }
+    
+    a:link {
+    text-decoration: none;
+    }
+    
+    .links ul {
+    list-style-type: none;
+    overflow:hidden;
+    text-align: right;
+    padding-top: 20px;
+    }
+    
+    .links li {
+    display:inline-block;
+    padding-right: 25px;
+    font-size: 18px;
+    }
+
+
+
+body {
+    background-image: url('/client/addfundsbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    height: 700px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: gold;
+    border-radius: 10px;
+   
+}
+
+header {
+    background-color: #000000;
+    color: gold;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+#round-banner {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+#monOne, #monTwo {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#dice-one, #dice-two, #dice-three, #dice-four {
+    width: 80px;
+    height: 70px;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+#monOne {
+    float: left;
+    margin-left: 35px;
+  
+}
+
+#monTwo {
+    margin-right: 35px;
+    float: right;
+    
+}
+
+#roll-resultOne {
+
+    float: left;
+    margin-left: 34px;
+    margin-bottom: 50px;
+    
+}
+
+
+#roll-resultTwo {
+
+    float: right;
+    margin-bottom: 50px;
+    
+}
+
+#loser, #winner {
+    display: none;
+}
+
+.dice-group {
+  display: flex;
+  clear: both;
+  justify-content: space-between;
+  
+}
+
+.dice-pair {
+  display: flex;
+  
+}
+
+.formInput {
+  text-align: center;
+  }
+
+  .formText {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  #bet {
+      width: 20%;
+  }
+
+  .buttonDiv {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 0;
+  }
+
+  
+
+  #confirm-button-section {
+        margin-top: 40px;
+        margin-bottom: 0;
+        text-align: center;
+       
+  }
+
+  .confirm-button {
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+  }
+
+  #button-roll {
+      margin-top: 40px;
+      color: gold;
+      cursor: pointer;
+      background-color: black;
+      width: 100px;
+      height: 50px;
+  }
+
+  #button-roll:disabled {
+      background-color: red;
+  }

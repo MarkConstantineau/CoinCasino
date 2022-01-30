@@ -1,0 +1,190 @@
+/* This is for my h1 and h4 font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+/* This is for h2 font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap'); 
+/* This is for h3 font */
+
+
+/* This is for titles-text-section */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Roboto+Slab:wght@600&display=swap');
+
+/* This is for description-text-games */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+/* This is for slogan-p */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* This is for game-button text */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 900px;
+}
+
+.navdiv {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+background-color: black;
+border-bottom: 4px solid gold;
+}
+
+h1 {
+font-family: 'Chakra Petch', sans-serif;
+color: gold;
+margin-left: 40px;
+}
+
+h2 {
+font-size: 45px;
+color: white;
+font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+color: gold;
+transition: 0.4s;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+h4:hover {
+color: rgb(145, 129, 39);
+}
+
+.title {
+}
+
+.balance-num {
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+font-size: 20px;
+margin-top: 15px;
+}
+
+.links {
+padding-bottom: 20px;
+}
+
+a:link {
+text-decoration: none;
+}
+
+.links ul {
+list-style-type: none;
+overflow:hidden;
+text-align: right;
+padding-top: 20px;
+}
+
+.links li {
+display:inline-block;
+padding-right: 25px;
+font-size: 18px;
+}
+
+.games-div {
+display: grid;
+grid-gap: 35px;
+grid-template-columns: 160px 160px 160px 160px 160px 160px;
+grid-template-rows: 300px 300px 300px;
+background-image: url('/client/addfundsbg3.jpg');
+background-size: cover;
+background-position: center;
+padding: 40px;
+z-index: 1;
+}
+
+.card-text {
+font-size: 30px;
+margin-top: 14px;
+}
+
+.wheel-card {
+display: grid;
+grid-template-rows: 3fr 1fr;
+margin-top: 20px;
+border: 2px solid gold;
+transition: 200ms transform ease-in-out;
+border-radius: .35rem;
+}
+
+.wheel-card:hover {
+transform: scale(1.1);
+}
+
+.wheel-pic {
+background-image: url('/client/movingwheel.gif');
+background-size: cover;
+background-position: center;
+}
+
+.wheel-name {
+background-color: black;
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.coinflip-card {
+display: grid;
+grid-template-rows: 3fr 1fr;
+margin-top: 20px;
+border: 2px solid gold;
+transition: 200ms transform ease-in-out;
+border-radius: .35rem;
+}
+
+.coinflip-card:hover {
+ transform: scale(1.1);
+}
+
+.coin-pic {
+background-image: url('/client/coinflip.gif');
+background-size: cover;
+background-position: center;
+}
+
+.coin-name {
+background-color: black;
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.dice-card {
+display: grid;
+grid-template-rows: 3fr 1fr;
+margin-top: 20px;
+border: 2px solid gold; 
+transition: 200ms transform ease-in-out;
+border-radius: .35rem;
+}
+
+.dice-card:hover {
+transform: scale(1.1);
+}
+
+.dice-pic {
+background-image: url('/client/diceroll.gif');
+background-size: cover;
+background-position: center;
+}
+
+.dice-name {
+background-color: black;
+color: gold;
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+}

@@ -1,0 +1,148 @@
+
+/* This is for my title */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+
+/* This is for h4 font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*   {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    h4 {
+    color: gold;
+    transition: 0.4s;
+    font-family: 'Chakra Petch', sans-serif;
+    }
+
+    h4:hover {
+    color: rgb(145, 129, 39);
+    }
+
+    main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100vh;
+    background: url('/client/addfundsbg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+    .navdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 4px solid gold;
+    }
+
+    
+    h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: gold;
+    margin-left: 40px;
+    }
+
+    .title {
+    }
+        
+    .links {
+    padding-bottom: 20px;
+    }
+        
+    a:link {
+    text-decoration: none;  
+    }
+        
+    .links ul {
+    list-style-type: none;
+    overflow:hidden;
+    text-align: right;
+    padding-top: 20px;
+    }
+        
+    .links li {
+    display:inline-block;
+    padding-right: 25px;
+    font-size: 18px;
+     }
+
+
+    .balance-num {
+    color: gold;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    }
+
+    .payment-methods {
+    
+    }
+
+    .box-inside-payment-methods {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    grid-gap: 2%;
+    }
+
+    .currency-boxes {
+    display: grid;
+    grid-template-rows: 75% 25%;
+    background-color: black;
+    border-radius: .35rem;
+    transition: 200ms transform ease-in-out;
+    font-family: 'Chakra Petch', sans-serif
+    }
+
+    .currency-boxes:hover {
+    border: 2px solid gold;
+    transform: scale(1.1);
+    }
+
+    .picture-top {
+    background-image: url('/client/currencybackground9.jpg');
+    overflow: hidden;
+    background-size: cover;
+    }
+
+    .coin-pic {
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    overflow: hidden;
+    transition: 200ms transform ease-in-out;
+    }
+
+    .coin-pic:hover{
+    transform: scale(1.025);
+    }
+
+    .text-bottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    }
+
+    .text-coin-amount {
+    margin-top: 20px;
+    font-size: 25px;
+    }
+
+    .text-conversion {
+    font-size: 20px;
+    }
